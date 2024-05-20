@@ -16,7 +16,7 @@ const EmailSection = () => {
             </h2>
             <p className="text-[#294457] text-lg md-4 max-w-md lg:pl-28">
                 {" "}
-                I'm always interested in collaborating on new projects and exploring exciting opportunities. Feel free to reach out to me via email or connect with me on LinkedIn...
+                I  &apos m always interested in collaborating on new projects and exploring exciting opportunities. Feel free to reach out to me via email or connect with me on LinkedIn...
             </p>
             <div className="socials flex flex-rw mt-2 lg:pl-28">
               <Link href="https://github.com/Vmihira">

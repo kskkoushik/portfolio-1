@@ -50,7 +50,7 @@ const TAB_DATA = [
     content: (
       <ul className="list-disc font-semibold pl-2 text-[#33698d]">
         <li>B-Tech </li>
-        <li>Vignan's Institute Of Information Technology __ 2022 - 2026</li>
+        <li>Vignan &apos Institute Of Information Technology __ 2022 - 2026</li>
       </ul>
     ),
   },
