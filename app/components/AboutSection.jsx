@@ -59,6 +59,7 @@ const TAB_DATA = [
     id: "certifications",
     content: (
       <ul className="list-disc font-semibold pl-2 text-[#33698d]">
+        <li>Web development from IBM SkillsBuild</li>
         <li>MongoDB in Python</li>
         <li>Python from Infosys Springboard</li>
         <li>Basics of Generative AI From LinkedIn Learning</li>
