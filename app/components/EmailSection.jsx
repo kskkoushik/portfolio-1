@@ -32,12 +32,12 @@ const EmailSection = () => {
             <form className="flex flex-col gap-6 lg:pr-36">
               <div className="mb-4">
                 <label htmlFor="email" type="email" className="text-[#5297cb] block mb-2 text-sm font-medium">Your email</label>
-                <input type="email" id="email" required placeholder="abc@gmail.com" className="bg-[#b2dcd4] border border-[#3335F] placeholfder-[#9CA2A9] text-gray-100 text-sm rounded-lg block w-full p-2.5" />
+                <input type="email" id="email" required placeholder="abc@gmail.com" className="bg-[#b2dcd4] border border-[#3335F] placeholder-[#9CA2A9] text-gray-100 text-sm rounded-lg block w-full p-2.5" />
               </div>
 
               <div className="mb-6">
                 <label htmlFor="message" className="text-[#5297cb] block mb-2 text-sm font-medium">Subject</label>
-                <textarea name="message" id="message" required placeholder="Text me!!" className="bg-[#b2dcd4] border border-[#3335F] placeholfder-[#9CA2A9] text-gray-100 text-sm rounded-lg block w-full p-2.5" />
+                <textarea name="message" id="message" required placeholder="Text me!!" className="bg-[#b2dcd4] border border-[#3335F] placeholder-[#9CA2A9] text-gray-100 text-sm rounded-lg block w-full p-2.5" />
               </div> 
 
               <button type="button" className="border-black border-2 bg-gradient-to-br from-[#199df5] via-blue-100 to-[#199df5] text-[#010101] font-bold py-2.5 px-5 rounded-lg w-full">
