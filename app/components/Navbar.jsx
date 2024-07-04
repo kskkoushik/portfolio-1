@@ -27,7 +27,7 @@ const Navbar = () => {
   return (
     <nav className="fixed top-0 left-0 right-0 z-10 bg-[#E8DFCA] bg-opacity-100">
         <div className="flex flex-wrap items-center justify-between mx-auto px-4 py-2">
-          <Image src="/images/about_image_logo.png" className="animate-bounce" width={250} height={200} />
+          <Image src="/images/about_navbar.png" className="animate-bounce" width={250} height={200} />
           <div className="mobile-menu block md:hidden">
             {!navbarOpen ? (
                 <button 
