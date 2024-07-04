@@ -25,20 +25,20 @@ const navLinks = [
 const Navbar = () => {
     const [navbarOpen, setNavbarOpen] = useState(false);
   return (
-    <nav className="fixed top-0 left-0 right-0 z-10 bg-[#b2dcd4] bg-opacity-100">
+    <nav className="fixed top-0 left-0 right-0 z-10 bg-[#E8DFCA] bg-opacity-100">
         <div className="flex flex-wrap items-center justify-between mx-auto px-4 py-2">
           <Image src="/images/about_image_logo.png" className="animate-bounce" width={250} height={200} />
           <div className="mobile-menu block md:hidden">
             {!navbarOpen ? (
                 <button 
                   onClick={() => setNavbarOpen(true)} 
-                  className="flex items-center px-3 py-2 border rounded border-black text-[#345870] hover:text-black hover:border-[#2E86C1]">
+                  className="flex items-center px-3 py-2 border rounded border-black text-[#1A4D23] hover:text-black hover:border-[#4F6F52]">
                   <Bars3Icon className="h-5 w-5" />
                 </button>
               ) : (
                 <button 
                   onClick={() => setNavbarOpen(false)} 
-                  className="flex items-center px-3 py-2 border rounded border-black text-[#345870] hover:text-black hover:border-[#2E86C1]">
+                  className="flex items-center px-3 py-2 border rounded border-black text-[#1A4D23] hover:text-black hover:border-[#4F6F52]">
                   <XMarkIcon className="h-5 w-5" />
                 </button>
               )
