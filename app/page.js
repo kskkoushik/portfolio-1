@@ -11,7 +11,7 @@ import ExperienceSection from "./components/ExperienceSection";
 export default function Home() {
 
   return (
-    <main className="flex min-h-screen flex-col bg-[#c3ebe3]">
+    <main className="flex min-h-screen flex-col bg-[#F5EFE6]">
       <Navbar />
       <div class="container mt-24 mx-auto px-12 py-4">
         <HeroSection />

@@ -10,9 +10,9 @@ const HeroSection = () => {
       <br />
         <div className="grid grid-cols-1 sm:grid-cols-12">
             <div className="col-span-7 place-self-center text-center sm:text-left">
-              <h1 className="text-[#35576e] mb-4 text-4xl sm:text-5xl lg:text-6xl font-extrabold">
-                <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#5e9dc6] via-blue-300 to-[#5e9dc6]">
-                  Hello, I &apos m{" "}
+              <h1 className="text-[#266631] mb-4 text-4xl sm:text-5xl lg:text-6xl font-extrabold">
+                <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#4F6F52] via-green-200 to-[#4F6F52]">
+                  Hello, I am{" "}
                 </span>
                 <br />
                 <TypeAnimation
@@ -29,17 +29,17 @@ const HeroSection = () => {
                   repeat={Infinity}
                 />
               </h1>
-              <p className="text-[#2b5876] text-base sm:text-lg mb-6  lg:text-xl">
-              I  &apos m excited to share my portfolio with you today! It highlights my work, showcasing my skills and experience. I invite you to explore the projects and know my capabilities.
+              <p className="text-[#4F6F52] text-base sm:text-lg mb-6  lg:text-xl">
+              I am excited to share my portfolio with you today! It highlights my work, showcasing my skills and experience. I invite you to explore the projects and know my capabilities.
               </p>
               <div>
-                <button className="border-[#2b5876] border-4 px-6 py-1 w-full sm:w-fit rounded-full inline-block mr-4 bg-gradient-to-br from-[#199df5] via-blue-300 to-[#199df5] text-[#010101]">
+                <button className="border-[#4F6F52] border-4 px-6 py-1 w-full sm:w-fit rounded-full inline-block mr-4 bg-gradient-to-br from-[#4F6F52] via-green-200 to-[#4F6F52] text-[#010101]">
                 <a href={`mailto:vinjamurimihira@gmail.com`}>Hire Me</a>
                 </button>
               </div>
             </div>
           <div className="col-span-5 place-self-center mt-4 lg:mt-0">
-            <div className="rounded-full bg-[#abd2cc] w-[250px] h-[260px] lg:w-[250px] lg:h-[250px] relative">
+            <div className="rounded-full bg-[#E8DFCA] w-[250px] h-[260px] lg:w-[250px] lg:h-[250px] relative">
             <Image
               src="/images/image.png"
                 alt="myself....milli"
